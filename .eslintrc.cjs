@@ -7,7 +7,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:prettier/recommended', // prettier格式化相关-必要
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'], // 忽略的文件夹或文件
+  ignorePatterns: ['dist', '.eslintrc.cjs', '*.cjs'], // 忽略的文件夹或文件
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
   rules: {
