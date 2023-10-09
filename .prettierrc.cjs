@@ -3,7 +3,7 @@ module.exports = {
   bracketSpacing: true, // 对象字面量的大括号间使用空格（默认true）
   endOfLine: 'lf', // 换行符使用 lf
   // jsxBracketSameLine: false, // jsx > 是否另起一行
-  printWidth: 100, // 每行代码长度（默认80）
+  printWidth: 80, // 每行代码长度（默认80）
   proseWrap: 'preserve', // 是否要换行
   semi: false, // 声明结尾使用分号(默认true)
   singleQuote: true, // 使用单引号（默认false）

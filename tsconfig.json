@@ -18,7 +18,18 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./", // 解析路径开始
+    "paths": {
+      "@/*" : ["src/*"],
+      "@router/*" : ["src/router/*"],
+      "@mock/*" : ["mock/*"],
+      "@components/*" : ["src/components/*"],
+      "@mockjs/*": ["_mock/*"],
+      "@api/*": ["api/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@constant/*": ["src/constant/*"],
+    } // 路径别名 还需要再vite.config.ts里加上alias字段
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

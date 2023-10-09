@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  .header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+      flex: 1;
+    }
+    .right {
+      margin: 0 12px;
+    }
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    .controller {
+      margin: 12px 0;
+    }
+  }
+  .footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}

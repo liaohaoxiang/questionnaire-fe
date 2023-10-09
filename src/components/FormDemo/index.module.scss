@@ -1,0 +1,47 @@
+.heart {
+  position: relative; 
+  width: 50px; 
+  height: 50px; 
+  transform: rotate(45deg);
+  background-color: red;
+  &:after {
+    position: absolute; 
+    display: block; 
+    content: ''; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 100%; 
+    background: red; 
+    right: 0; 
+    top: -50%; 
+  }
+  &:before {
+    position: absolute; 
+    display: block; 
+    content: ''; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 100%; 
+    background: red; 
+    left: -50%; 
+    top: 0; 
+  }
+}
+
+.search { 
+  position: relative; 
+  width: 30px; 
+  height: 30px; 
+  border: 1px solid #666; 
+  border-radius: 100%; 
+  transform: rotate(-30deg);
+  &:before { 
+    content: ' '; 
+    position: absolute; 
+    border-left: 3px solid #000;
+    height: 15px;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+  } 
+} 

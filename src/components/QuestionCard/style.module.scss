@@ -1,0 +1,30 @@
+.question__card {
+  // max-width: 500px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+.question__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question__header--publish {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content:space-between
+}
+.question__header--publish-state {
+  color: green;
+}
+
+.question__buttons {
+  display: flex;
+  justify-content: space-between;
+}
